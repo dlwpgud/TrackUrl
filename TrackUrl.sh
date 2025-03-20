@@ -4,7 +4,7 @@
 #xterm -e ./ngrok http 80 & clear
 
 #32_Bit
-xterm -e ./ngrok http 80 & clear
+gnome-terminal -e "./ngrok http 80'
 
 
 echo "            ______________________________________________________   
@@ -20,8 +20,8 @@ echo "<!DOCTYPE html>
 
 <html>
     <head>
-        <title>Z-HACKER</title>
-        <style type=\"text/css\">
+        <title>ft-emblem</title>
+        <style type=\"ft-emblem.jpg\">
             
             body {
                 background-image: url(\"skull.jpg\");
@@ -62,7 +62,7 @@ echo "<!DOCTYPE html>
 </html>" > index.html
 
 mv index.html /var/www/html/index.html
-cp skull.jpg /var/www/html/skull.jpg
+cp ft-emblem.jpg /var/www/html/ft-emblem.jpg
 service apache2 start
 echo "         ______________________________________________________   
          7      77  _  77  _  77     77  7  77  7  77  _  77  7   
